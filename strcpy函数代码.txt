@@ -1,0 +1,24 @@
+#include<stdio.h>
+char *custom_cpy(char *to,char *from);
+int main(int argc,char *argv[])
+{
+    char *from = "My Name Is liangkaizhu\n";
+    char to[30];
+    char *ptr = custom_cpy(to,from);
+    printf("%s,%s\n",ptr,to);
+    return 0;
+}
+char *custom_cpy(char *to,char *from)
+{
+    if(to == NULL || from == NULL)
+	{
+        return NULL;
+    }   
+    char *p = to; 
+    for(;*from!='\0';from++,to++)
+	{
+        *to = *from;
+    }   
+    *to = '\0';  
+    return p;
+}
