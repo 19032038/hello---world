@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c0362a18-a652-4106-bbd6-3ca5f549c950}</ProjectGuid>
+    <ProjectGuid>{f1f2e6d5-ceb8-4633-ad15-8a12286205f8}</ProjectGuid>
     <RootNamespace>MathLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
